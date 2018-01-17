@@ -289,19 +289,19 @@ The score is calculated as:
 
 
 
-image:algorithms/images/image034.png[]
+image:images/image034.png[]
 
-image:algorithms/images/image035.png[]
+image:images/image035.png[]
 
 
 where the variables are as follows:
 
 
-* image:algorithms/images/image036.png[] & image:algorithms/images/image037.png[] - Standard deviation of the circular error of ways 1 & 2
+* image:images/image036.png[] & image:images/image037.png[] - Standard deviation of the circular error of ways 1 & 2
 
-* image:algorithms/images/image038.png[] - Per the Abramowitz & Stegun (1964) approximation for calculating image:algorithms/images/image039.png[]
+* image:images/image038.png[] - Per the Abramowitz & Stegun (1964) approximation for calculating image:images/image039.png[]
 
-* image:algorithms/images/image040.png[] - The mean distance between the ways
+* image:images/image040.png[] - The mean distance between the ways
 
 
 ===== Parallel Score
@@ -494,9 +494,9 @@ The _zipper score_ gives a higher score for ways that are already joined at one 
 The _length score_ gives higher values to ways that are longer. This encourages longer ways to be merged earlier in the conflation process, and long ways that meet all the above criteria are more likely to be the same than are smaller ways. The length weight is given by:
 
 
-image:algorithms/images/image045.png[]
+image:images/image045.png[]
 
-image:algorithms/images/image046.png[]
+image:images/image046.png[]
 
 
 The values 20, 0.2 and 0.8 were derived experimentally.
